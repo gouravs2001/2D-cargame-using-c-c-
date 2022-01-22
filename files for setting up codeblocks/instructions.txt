@@ -1,0 +1,20 @@
+for compiling use codeblocks we have to set it up before compiling.
+
+go to-codeblocks>settings>compiler>linker settings
+
+
+-lbgi
+-lgdi32
+-lcomdlg32
+-luuid
+-loleaut32
+-lole32
+-pthread
+
+paste these commands in other linker options.
+
+now in link libraries---
+add>just type winmm
+ //for graphics.h
+in link libraries--
+add>c:mingw>in lib folder select libbgi.a file
